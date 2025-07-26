@@ -38,10 +38,18 @@ body {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden; /* Это важно, чтобы обрезать изображение по краям круга */
     margin: 0 auto 20px;
     border: 4px solid var(--primary-color);
     box-shadow: 0 0 15px var(--primary-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo img {
+    width: 100%; /* Гарантируем, что изображение займет всю ширину контейнера .photo */
+    height: 100%; /* Гарантируем, что изображение займет всю высоту контейнера .photo */
+    object-fit: cover; /* Это масштабирует изображение так, чтобы оно покрывало весь контейнер, обрезая лишнее */
+    display: block; /* Убираем возможные пробелы, которые могут быть у img по умолчанию */
 }
 
 
