@@ -205,20 +205,6 @@ strong {
 
 /* Проекты - ссылки */
 
-.projects li {
-    margin-bottom: 10px;
-}
-
-.projects li a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 400;
-    
-}
-
-.projects li a:hover {
-    color: #6272a4;
-}
 
 /* Responsive design */
 @media (max-width: 768px) {
