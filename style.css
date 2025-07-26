@@ -204,10 +204,6 @@ strong {
 }
 
 /* Проекты - ссылки */
-.projects ul {
-    list-style-type: none;
-    padding: 0;
-}
 
 .projects li {
     margin-bottom: 10px;
